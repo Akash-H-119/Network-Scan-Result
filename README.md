@@ -1,7 +1,7 @@
 # Network-Scan-Result
 This report documents the results of a TCP SYN scan conducted on the local network 192.168.1.0/24 using Nmap. The scan identified 11 active hosts out of 256 possible addresses, detalling each device's IP address, MAC/vendor Information, and any open or filtered TCP ports.
 
-Objective:
+-Objective:
 To identify active hosts, discover open ports/services in a local network, and validate network traffic using deep packet inspection.
 
 Steps Performed:
@@ -47,7 +47,7 @@ Mapped services to potential vulnerabilities (e.g., outdated SSH versions).
 
 Highlighted unnecessary open ports that could be hardened or firewalled.
 
-Outcome:
+-Outcome:
 
 Delivered a combined network inventory and security posture snapshot:
 
@@ -57,7 +57,7 @@ Packet-level confirmation of the Nmap results.
 
 Recommendations for closing or securing high-risk ports.
 
-Tools Used:
+-Tools Used:
 
 Nmap for host discovery and port scanning.
 
