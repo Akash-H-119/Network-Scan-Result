@@ -1,0 +1,91 @@
+# Nmap 7.95 scan initiated Mon Sep 22 21:18:04 2025 as: /usr/lib/nmap/nmap -sS -oN scan_reuslts.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0028s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 20:0C:86:60:11:D0 (GX India Pvt)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0042s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 46:84:F6:80:2B:1D (Unknown)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0053s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT     STATE    SERVICE
+1029/tcp filtered ms-lsa
+1104/tcp filtered xrl
+1213/tcp filtered mpc-lifenet
+1234/tcp filtered hotline
+4445/tcp filtered upnotifyp
+6003/tcp filtered X11:3
+6789/tcp filtered ibm-db2-admin
+8222/tcp filtered unknown
+9944/tcp filtered unknown
+MAC Address: 62:D3:32:07:0D:27 (Unknown)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.0051s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5500/tcp open  hotline
+7070/tcp open  realserver
+MAC Address: F8:45:2D:CD:19:7F (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.021s latency).
+All 1000 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3A:BE:05:99:B5:1C (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.027s latency).
+All 1000 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 46:21:49:F5:45:74 (Unknown)
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0051s latency).
+All 1000 scanned ports on 192.168.1.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: F8:45:2D:CD:19:7F (Unknown)
+
+Nmap scan report for 192.168.1.16
+Host is up (0.00100s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 2C:3B:70:E4:9F:1F (AzureWave Technology)
+
+Nmap scan report for 192.168.1.19
+Host is up (0.0034s latency).
+All 1000 scanned ports on 192.168.1.19 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 72:C1:EA:D8:87:46 (Unknown)
+
+Nmap scan report for 192.168.1.20
+Host is up (0.0072s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+MAC Address: 60:E9:AA:CA:82:05 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.1.18
+Host is up (0.000010s latency).
+All 1000 scanned ports on 192.168.1.18 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Sep 22 21:19:09 2025 -- 256 IP addresses (11 hosts up) scanned in 65.79 seconds
